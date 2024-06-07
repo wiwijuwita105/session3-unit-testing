@@ -10,7 +10,7 @@ import (
 func SetupRouter(r *gin.Engine) {
 	r.GET("/", handler.RootHandler)
 
-	r.POST("/", handler.PostHandler)
+	// r.POST("/", handler.PostHandler)
 
 	// Tambahkan middleware AuthMiddleware ke rute yang memerlukan autentikasi
 	privateEndpoint := r.Group("/private")

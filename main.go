@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"session1-intorduction-gin/middleware"
 	"session1-intorduction-gin/router"
 
 	"github.com/gin-gonic/gin"
@@ -13,7 +12,7 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 
-	r.Use(middleware.AuthMiddleware())
+	// r.Use(middleware.AuthMiddleware())
 
 	// Definisikan route
 	router.SetupRouter(r)
