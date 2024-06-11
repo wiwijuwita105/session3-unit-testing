@@ -1,8 +1,8 @@
 package router
 
 import (
-	"session1-intorduction-gin/handler"
-	"session1-intorduction-gin/middleware"
+	"session3-unit-testing/handler"
+	"session3-unit-testing/middleware"
 
 	"github.com/gin-gonic/gin"
 )

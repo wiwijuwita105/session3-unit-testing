@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"session1-intorduction-gin/router"
+	"session3-unit-testing/router"
 
 	"github.com/gin-gonic/gin"
 )
